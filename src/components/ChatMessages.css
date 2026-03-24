@@ -1,0 +1,22 @@
+.chat-msgs-container {
+    flex-grow: 1;
+    margin-top: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.chat-init-msg-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    /* 垂直居中 */
+    align-items: center;
+    /* 水平居中 */
+    overflow-y: auto;
+}
+
+.chat-init-msg {
+    text-align: center;
+    color: rgb(120, 120, 120);
+}
+
